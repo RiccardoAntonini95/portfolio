@@ -3,12 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import './assets/scss/App.scss'
+import NavBar from './components/navbar/NavBar'
 
-function App() {
-
+const App = () => {
   return (
     <div>
-      <section id='hero'>Hero</section>
+      <section>
+        <NavBar />
+      </section>
       <section>Parallax</section>
       <section id='services'>Services</section>
       <section>Portfolio1</section>
@@ -16,7 +18,6 @@ function App() {
       <section>Portfolio3</section>
       <section id='contact'>Contact</section>
       <section></section>
-
     </div>
   )
 }
