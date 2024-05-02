@@ -8,15 +8,15 @@ import NavBar from './components/navbar/NavBar'
 const App = () => {
   return (
     <div>
-      <section>
+      <section id='Homepage'>
         <NavBar />
       </section>
       <section>Parallax</section>
-      <section id='services'>Services</section>
-      <section>Portfolio1</section>
+      <section id='Services'>Services</section>
+      <section id='Portfolio'>Portfolio1</section>
       <section>Portfolio2</section>
       <section>Portfolio3</section>
-      <section id='contact'>Contact</section>
+      <section id='Contact'>Contact</section>
       <section></section>
     </div>
   )
