@@ -1,0 +1,46 @@
+.hero{
+    height: calc(100vh - 100px); //sottraggo la navbar
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    overflow: hidden;
+
+    .wrapper{
+        display: flex;
+        height: 100%;
+
+        .textContainer{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+            .buttons{
+                display: flex;
+
+                a{
+                    display: flex;
+                    align-items: center;
+                    background-color: lightgray;
+                    color: black;
+                    text-decoration: none;
+                    border: 1px solid black;
+                    margin-right: 10px;
+                    padding: 0.1em 0.8em;
+                    border-radius: 10px;  
+                    transition: border-radius 0.3s ease-in-out;
+                }
+
+                a:hover{
+                    border-radius: 0px;
+                }
+            }
+        }
+
+    }
+
+    .textSliderContainer{
+        font-size: 45vh;
+        position: absolute;
+        bottom: -70px;
+        white-space: nowrap; 
+        color: #ffffff16;
+    }
+}

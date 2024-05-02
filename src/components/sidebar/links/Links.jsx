@@ -4,10 +4,9 @@ const Links = () => {
 
     const items = [
         "Homepage",
-        "Services",
+        "About",
         "Portfolio",
-        "Contact",
-        "About"
+        "Contact"
     ]
 
     const variants = {
