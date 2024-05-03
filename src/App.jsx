@@ -10,8 +10,8 @@ const App = () => {
         <NavBar />
         <Hero />
       </section>
-      <section id='About'>About</section>
       <section id='Portfolio'>Projects</section>
+      <section id='About'>About</section>
       <section id='Contact'>Contact</section>
       <section></section>
     </div>
