@@ -43,7 +43,7 @@ const Hero = () => {
                     <motion.h1 variants={textVariants}>Web Developer</motion.h1>
                     <motion.div className="buttons" variants={textVariants}>
                         <motion.a href="https://github.com/RiccardoAntonini95" target="blank" rel="external" className="githubBtn" variants={textVariants}>
-                            See my work<img src={githubLogo} width={20} alt="GitHub Logo" />
+                            See my work<img src={githubLogo} width={50} alt="GitHub Logo" />
                         </motion.a>
                         <motion.a href="#Contact" variants={textVariants}>Contact me</motion.a>
                     </motion.div>

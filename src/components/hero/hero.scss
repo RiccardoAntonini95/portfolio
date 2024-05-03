@@ -8,9 +8,21 @@
         height: 100%;
 
         .textContainer{
-            display: flex;
-            flex-direction: column;
             width: 50%;
+            padding-left: 5rem;
+
+            h2{
+                font-size: 3em;
+                letter-spacing: 10px;
+                color: rebeccapurple;
+                margin-bottom: 0;
+            }
+
+            h1{
+                font-size: 5.5em;
+                color: lightgray;
+                margin: 25px 0;
+            }
 
             .buttons{
                 display: flex;
@@ -18,14 +30,16 @@
                 a{
                     display: flex;
                     align-items: center;
-                    background-color: lightgray;
+                    background-color: rebeccapurple;
                     color: black;
                     text-decoration: none;
                     border: 1px solid black;
                     margin-right: 10px;
-                    padding: 0.1em 0.8em;
-                    border-radius: 10px;  
+                    padding: 1.1em 1.8em;
+                    border-radius: 25px;  
                     transition: border-radius 0.3s ease-in-out;
+                    font-size: 1.5em;
+                    font-weight: bold;
                 }
 
                 a:hover{
@@ -39,6 +53,10 @@
             bottom: -3px;
             right: 0;
             z-index: 2;
+
+            img{
+                width: 30rem;
+            }
         }
 
     }
