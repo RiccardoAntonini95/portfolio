@@ -1,10 +1,10 @@
 .hero{
     height: calc(100vh - 100px); //sottraggo la navbar
     background: linear-gradient(180deg, #0c0c1d, #111132);
-    overflow: hidden;
 
     .wrapper{
         display: flex;
+        justify-content: space-between;
         height: 100%;
 
         .textContainer{
@@ -34,6 +34,13 @@
             }
         }
 
+        .picContainer {
+            position: absolute;
+            bottom: -3px;
+            right: 0;
+            z-index: 2;
+        }
+
     }
 
     .textSliderContainer{
@@ -42,5 +49,6 @@
         bottom: -70px;
         white-space: nowrap; 
         color: #ffffff16;
+        width: 50%;
     }
 }

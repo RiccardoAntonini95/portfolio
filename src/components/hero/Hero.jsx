@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import githubLogo from '/src/assets/img/githubLogo.png'
+import portfoliopic from '/src/assets/img/portfolio-pic.png'
 import "./hero.scss"
 
 const Hero = () => {
@@ -21,10 +22,10 @@ const Hero = () => {
 
     const sliderVariants = {
         initial: {
-            x: "40%"
+            x: "100%"
         },
         animate: {
-            x: "-100%",
+            x: "-970%",
             transition: {
                 duration: 30,
                 repeat: Infinity,
@@ -41,16 +42,18 @@ const Hero = () => {
                     <motion.h2 variants={textVariants}>ANTONINI RICCARDO</motion.h2>
                     <motion.h1 variants={textVariants}>Web Developer</motion.h1>
                     <motion.div className="buttons" variants={textVariants}>
-                        <motion.a href="https://github.com/RiccardoAntonini95" target="blank" className="githubBtn" variants={textVariants}>See my work<img src={githubLogo} width={20} alt="GitHub Logo" /></motion.a>
+                        <motion.a href="https://github.com/RiccardoAntonini95" target="blank" rel="external" className="githubBtn" variants={textVariants}>
+                            See my work<img src={githubLogo} width={20} alt="GitHub Logo" />
+                        </motion.a>
                         <motion.a href="#Contact" variants={textVariants}>Contact me</motion.a>
                     </motion.div>
                 </motion.div>
-                <motion.div variants={textVariants}>
-                    immagine
+                <motion.div className="picContainer" variants={textVariants}>
+                    <img src={portfoliopic} alt="portfolioPic"/>
                 </motion.div>
             </div>
             <motion.div className="textSliderContainer" variants={sliderVariants} initial="initial" animate="animate">
-                ciao caro come va?
+                HTML5 CSS3 JS SASS React TS C# .NET ASP.NET
             </motion.div>
         </div>
         </>
