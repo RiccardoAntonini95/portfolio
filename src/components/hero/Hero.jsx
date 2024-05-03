@@ -62,7 +62,7 @@ const Hero = () => {
             <motion.div className="buttons" variants={textVariants}>
               <motion.a
                 href="https://github.com/RiccardoAntonini95"
-                target="blank"
+                target="_blank"
                 rel="external"
                 className="githubBtn"
                 variants={textVariants}

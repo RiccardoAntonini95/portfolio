@@ -1,6 +1,7 @@
 .hero{
     height: calc(100vh - 100px); //sottraggo la navbar
     background: linear-gradient(180deg, #0c0c1d, #111132);
+    overflow: hidden;
 
     .wrapper{
         display: flex;
@@ -62,9 +63,9 @@
     }
 
     .textSliderContainer{
-        font-size: 45vh;
+        font-size: 40vh;
         position: absolute;
-        bottom: -70px;
+        bottom: 0px;
         white-space: nowrap; 
         color: #ffffff16;
         width: 50%;
