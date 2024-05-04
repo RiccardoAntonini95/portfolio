@@ -15,8 +15,9 @@
        text-align: center;
 
        h3{
-        font-size: 2em;
+        font-size: 2.8em;
         font-weight: bold;
+        margin-bottom: 0;
        }
 
        .projectPic{
@@ -34,6 +35,14 @@
         transition: border-radius 0.3s ease-in-out;
         font-weight: bold;
         padding: 1rem 1rem;
+
+        img{
+            vertical-align: bottom;
+        }
+       }
+
+       a:hover{
+        border-radius: 0;
        }
     }
 }
