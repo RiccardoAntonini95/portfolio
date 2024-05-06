@@ -1,3 +1,5 @@
+@import "../../assets/scss/App.scss";
+
 .hero{
     height: 100%;
     background: linear-gradient(180deg, #0c0c1d, #111132);
@@ -13,17 +15,29 @@
             width: 50%;
             padding-left: 5rem;
 
+            @include large {
+                padding-left: 3rem;
+            }
+
             h2{
                 font-size: 3em;
                 letter-spacing: 10px;
                 color: rebeccapurple;
                 margin-bottom: 0;
+
+                @include large {
+                    font-size: 2em;
+                }
             }
 
             h1{
                 font-size: 5.5em;
                 color: lightgray;
                 margin: 25px 0;
+
+                @include large {
+                    font-size: 3em;
+                }
             }
 
             .buttons{
@@ -42,10 +56,39 @@
                     transition: border-radius 0.3s ease-in-out;
                     font-size: 1.5em;
                     font-weight: bold;
+
+                    @include large {
+                        font-size: 1em;
+                        padding: 0.7em 1em;
+                    }
+
+                    @include tablet {
+                        font-size: 0.9em;
+                        padding: 0.2em 0.8em;
+                    }
+
+                    @include mobile {
+                        font-size: 0.8em;
+                        padding: 2px 19px;
+                    }
+
+                    img{
+                        width: 50px;
+
+                        @include tablet {
+                            width: 35px;
+                        }
+                    }
                 }
 
                 a:hover{
                     border-radius: 0px;
+                }
+
+                svg{
+                    @include large {
+                        display: none;
+                    }
                 }
             }
         }
@@ -58,6 +101,19 @@
 
             img{
                 width: 30rem;
+
+                @include large {
+                    width: 23rem;
+                }
+
+                @include tablet {
+                    width: 20rem;
+                }
+                
+                @include mobile {
+                    width: 12rem;
+                }
+
             }
         }
 
@@ -70,5 +126,9 @@
         white-space: nowrap; 
         color: #ffffff16;
         width: 50%;
+
+        @include large {
+            display: none;
+        }
     }
 }

@@ -68,7 +68,7 @@ const Hero = () => {
                 variants={textVariants}
               >
                 See my work
-                <img src={githubLogo} width={50} alt="GitHub Logo" />
+                <img src={githubLogo} alt="GitHub Logo" />
               </motion.a>
               <motion.a href="#Contact" variants={textVariants}>
                 Contact me

@@ -12,7 +12,7 @@ const App = () => {
         <SideBar />
         <Hero />
       </section>
-      <section id='Portfolio'>
+      {/* <section id='Portfolio'>
        <Portfolio /> 
       </section>
       <section id='About'>
@@ -20,7 +20,7 @@ const App = () => {
       </section>
       <section id='Contact'>
         <Contact />
-      </section>
+      </section> */}
     </div>
   )
 }
