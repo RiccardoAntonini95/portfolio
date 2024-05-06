@@ -2,7 +2,6 @@ import "./navbar.scss"
 import githubLogo from '/src/assets/img/githubLogo.png'
 import linkedinLogo from '/src/assets/img/linkedinLogo.png'
 import SideBar from "../sidebar/SideBar"
-import { motion } from "framer-motion"
 
 const NavBar = () => {
   return (

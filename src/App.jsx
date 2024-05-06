@@ -1,6 +1,4 @@
-import { useState } from 'react'
 import './assets/scss/App.scss'
-import NavBar from './components/navbar/NavBar'
 import Hero from './components/hero/Hero'
 import Portfolio from './components/portfolio/Portfolio'
 import About from './components/about/About'
