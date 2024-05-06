@@ -5,12 +5,13 @@ import Hero from './components/hero/Hero'
 import Portfolio from './components/portfolio/Portfolio'
 import About from './components/about/About'
 import Contact from './components/contact/Contact'
+import SideBar from './components/sidebar/SideBar'
 
 const App = () => {
   return (
     <div>
       <section id='Homepage'>
-        <NavBar />
+        <SideBar />
         <Hero />
       </section>
       <section id='Portfolio'>
