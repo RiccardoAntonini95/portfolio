@@ -5,8 +5,8 @@ import { motion } from 'framer-motion'
 
 const variants = {
   initial: {
-      x: 800,
-      y: 500,
+      x: 300,
+      y: 300,
       opacity: 0
   },
 

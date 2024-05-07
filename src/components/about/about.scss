@@ -1,12 +1,27 @@
+@import "../../assets/scss/App.scss";
+
 .aboutContainer{
     display: flex;
+
+    @include large {
+        display: initial;
+    }
 
     .aboutTextContainer{
         width: 45%;
         padding: 0 1rem;
 
+        @include large {
+            width: 100%;
+            padding: 0;
+        }
+
         p{
             font-size: 1.5rem;
+
+            @include large {
+                font-size: 1rem;
+            }
         }
 
     }
@@ -15,9 +30,14 @@
         width: 55%;
         text-align: center;
 
+        @include large {
+            width: 100%;
+        }
+
         img{
             width: 80%;
             object-fit: cover;
+
         }
     }
 }

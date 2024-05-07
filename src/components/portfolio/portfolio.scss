@@ -13,9 +13,7 @@
     gap: 10px;
 
     @include large {
-        display: flex;
-        flex-direction: column;
-        
+        display: initial;
     }
 
     .projectCard{

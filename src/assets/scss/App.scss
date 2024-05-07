@@ -40,8 +40,13 @@ section{
     scroll-snap-align: center;
     overflow: hidden;
 
-    @include large {
-        overflow: visible;
+    @include large{
+        overflow-y: scroll;
+    }
+
+    @include tablet{
+        margin: 50px 0px;
+        border: 1px solid #996e333b;
     }
 }
 
