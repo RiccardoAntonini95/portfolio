@@ -1,31 +1,3 @@
-html{
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-}
-
-body{
-    background-color: #0c0c1d;
-    color: lightgray;
-    overflow-x: hidden;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: math;
-}
-
-section{
-    height: 100vh;
-    scroll-snap-align: center;
-    overflow: hidden;
-}
-
-h3{
-    font-size: 2.8em;
-    font-weight: bold;
-    color: rebeccapurple;
-    text-align: center;
-    margin-top: 15px;
-} 
-
 @mixin mobile {
     @media (max-width : 576px) {
         @content;
@@ -43,3 +15,41 @@ h3{
         @content;
     }
 }
+
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    
+    @include large {
+        scroll-snap-type: none;
+        scroll-behavior: auto;
+    }
+}
+
+body{
+    background-color: #0c0c1d;
+    color: lightgray;
+    overflow-x: hidden;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: math;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: center;
+    overflow: hidden;
+
+    @include large {
+        overflow: visible;
+    }
+}
+
+h3{
+    font-size: 2.8em;
+    font-weight: bold;
+    color: rebeccapurple;
+    text-align: center;
+    margin-top: 15px;
+} 
+

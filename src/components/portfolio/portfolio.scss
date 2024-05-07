@@ -1,3 +1,5 @@
+@import "../../assets/scss/App.scss";
+
 .portfolioTitle{
     font-size: 3em;
     font-weight: bold;
@@ -10,14 +12,28 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 
+    @include large {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
     .projectCard{
        padding: 0 10px;
        text-align: center;
+
+       @include large {
+        margin-bottom: 50px;
+       }
 
        h4{
         font-size: 2.8em;
         font-weight: bold;
         margin-bottom: 0;
+
+        @include large {
+            font-size: 2em;
+        }
        }
 
        .projectPic{
@@ -25,6 +41,12 @@
         height: 250px;
         margin-top: 50px;
         margin-bottom: 100px;
+
+        @include large {
+            height: 100%;
+            object-fit: cover;
+            margin-bottom: 50px;
+        }
        }
 
        a{

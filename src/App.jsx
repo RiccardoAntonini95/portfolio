@@ -8,14 +8,14 @@ import SideBar from './components/sidebar/SideBar'
 const App = () => {
   return (
     <div>
-      <section id='Homepage'>
+      {/* <section id='Homepage'>
         <SideBar />
         <Hero />
-      </section>
-      {/* <section id='Portfolio'>
+      </section> */}
+      <section id='Portfolio'>
        <Portfolio /> 
       </section>
-      <section id='About'>
+      {/* <section id='About'>
         <About />
       </section>
       <section id='Contact'>
