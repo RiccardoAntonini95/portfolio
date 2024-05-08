@@ -1,6 +1,7 @@
 import './contact.scss'
 import githubLogo from '/src/assets/img/githubLogo.png'
 import linkedinLogo from '/src/assets/img/linkedinLogo.png'
+import CVAntoniniRiccardo from '/src/assets/pdf/CV_Antonini_Riccardo.pdf'
 import { motion } from 'framer-motion'
 
 const variants = {
@@ -37,7 +38,7 @@ const Contact = () => {
               <motion.img src={linkedinLogo} alt="LinkedIn Logo" />
             </motion.a>
             <motion.h4>SEE MY CV</motion.h4>
-            <motion.a href="/src/assets/pdf/CV Antonini Riccardo.pdf" download>Download pdf here!</motion.a>
+            <motion.a href={CVAntoniniRiccardo} download>Download pdf here!</motion.a>
         </motion.div>
         </>
     )
