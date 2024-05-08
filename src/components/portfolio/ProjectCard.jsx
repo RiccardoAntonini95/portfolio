@@ -20,7 +20,7 @@ const ProjectCard = (props) => {
     return(
         <motion.div className="projectCard" variants={variants}>
             <h4>{props.projectName}</h4>
-            <img src={`/src/assets/img/${props.projectPicture}`} alt="project-pic" className="projectPic"/>
+            <img src={props.projectPicture} alt="project-pic" className="projectPic"/>
             <a href={props.projectLink} rel="external" target="_blank">See it on GitHub <img src={githubLogo} width={20} alt="GitHub Logo"/></a>
         </motion.div>
     )

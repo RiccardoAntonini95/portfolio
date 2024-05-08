@@ -1,5 +1,8 @@
 import "./portfolio.scss"
 import ProjectCard from "./ProjectCard"
+import PixelGem from "/src/assets/img/pixelgem.png";
+import InForno from "/src/assets/img/Inforno.png";
+import LinkedInClone from "/src/assets/img/linkedinclone.png";
 import { motion } from "framer-motion"
 
 const variants = {
@@ -25,9 +28,9 @@ const Portfolio = () => {
         <>
         <h2 className="portfolioTitle">SELECTED PROJECTS</h2>
         <motion.div className="projectsContainer" variants={variants} initial="initial" whileInView="animate" >
-           <ProjectCard projectName={"Pixel Gem Shop"} projectLink={"https://github.com/RiccardoAntonini95/PixelGemShop"} projectPicture={"pixelgem.png"}  />
-           <ProjectCard projectName={"In Forno Pizzeria"} projectLink={"https://github.com/RiccardoAntonini95/s19l1-2-3-4-5"} projectPicture={"Inforno.png"}  />
-           <ProjectCard projectName={"LinkedIn clone (Team)"} projectLink={"https://github.com/RiccardoAntonini95/LinkedInClone_TeamForzaHorizon"} projectPicture={"linkedinclone.png"}  />
+           <ProjectCard projectName={"Pixel Gem Shop"} projectLink={"https://github.com/RiccardoAntonini95/PixelGemShop"} projectPicture={PixelGem}  />
+           <ProjectCard projectName={"In Forno Pizzeria"} projectLink={"https://github.com/RiccardoAntonini95/s19l1-2-3-4-5"} projectPicture={InForno}  />
+           <ProjectCard projectName={"LinkedIn clone (Team)"} projectLink={"https://github.com/RiccardoAntonini95/LinkedInClone_TeamForzaHorizon"} projectPicture={LinkedInClone}  />
         </motion.div>
         </>
     )
