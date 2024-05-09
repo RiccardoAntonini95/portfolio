@@ -73,10 +73,11 @@
                     }
 
                     img{
-                        width: 50px;
+                        width: 40px;
+                        padding-left: 5px;
 
                         @include tablet {
-                            width: 35px;
+                            width: 30px;
                         }
                     }
                 }
