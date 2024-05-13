@@ -1,8 +1,12 @@
-# React + Vite
+# Antonini Riccardo - Web Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Descrizione
+Questo progetto è stato ispirato dal video Youtube di Lama Dev che lascio qui in descrizione >---- https://youtu.be/CHGHuF24Cjw?si=Lo_8FbETsC4fql87 <-------
+Il sito è pensato per essere responsive e quindi consultabile sia da pc che da dispositivi mobile e sarà costantemente modificato con altri progetti selezionati.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Tecnologie usate
+- **React**: Versione 18.2.0
+- **SASS**: Versione 6.4.4
+- **Framer-Motion**: Versione 10.16.4
